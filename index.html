@@ -15,15 +15,15 @@
         }
 
         a {
-        font-family: sans-serif;
-        font-style: normal;
+            font-family: sans-serif;
+            font-style: normal;
         }
 
         body {
         margin: 0;
         }
 
-        div.tres {
+        div.ftperfil {
         width:30px;
         height:30px;
         border: 25px solid;
@@ -31,10 +31,15 @@
         margin-bottom: 0;
         }
 
+        div.ftperfil img{
+        border-radius: 1000000000000000000px;
+        }
+
         article {
         background-image: url(Backgroundindex.png);
         margin-top: 0;
-        margin-bottom: 0;        
+        margin-bottom: 0;    
+        padding-bottom: 1000px;    
         }
 
         h1 {
@@ -58,42 +63,96 @@
         }
 
         footer {
-        background-color: #000000;
+        background-color: #000000; 
         margin: 0;
+        padding: 10px;
         border: 30px;
         height: 20%;
-        width: 100%;
         font-family: sans-serif;
         margin-top: 0;
         color: white;
         }
 
+        footer ol p{
+        text-align: left ;
+        }
+
+        footer ol h3{
+        text-align: left ;
+        font-family: sans-serif;
+        }
+
         div.fundoazul{
-        background-color: cadetblue;
-        height: 350px;
+        background: url(pokedexft.png);
+        height: 360px;
         width: 300px;
         text-align: center;
         margin: 10px;
+        border-radius: 10px;
         }
 
-        div.blackborder{
+        div.blackborderimg{
         background-color: black;
         height: 190px;
-        width: 200px;
-        margin-right: 40px;
-        margin-left: 40px;
-        margin-top: 5px;
+        width: 210px;
+        margin-right: 37px;
+        margin-left: 37px;
+        margin-top: 8px;
         padding: 10px;
+        border-radius: 20px;
+        }
+
+        div.blackbordertxt{
+        background-color: black;
+        color: white;
+        height: 120px;
+        width: 250px;
+        margin-top: 7px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 20px;
+        }
+
+        h2{
+        margin-bottom: 5px;
+        margin-top: 5px;
+        }
+
+        div.cabtipo{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        }
+
+        div.tipos{
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 10px;
+        }
+
+        div img{
+        border-radius: 25px;
+        }
+
+        div.tipo{
+        margin-left: 85px;
+        margin-right: 85px;
         }
 
         div{
         text-align: center;
         }
+
+        footer div a{
+        font-family: sans-serif;
+        color: whitesmoke;
+        text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <header>
-        <div class="tres">
+        <div class="ftperfil">
             <a href="perfil.html"><img src="ftdeperfil.png" alt="foto" height="40px"></a>
         </div>
     </header>
@@ -101,124 +160,115 @@
         <h1><strong>Selecione o poquemon que voce quiser </strong></h1>
         <div class="cabecao">
             <div class="fundoazul">
-                <div class="blackborder">
+                <div class="blackborderimg">
                     <div class="foto">
                         <a href="bulbasaur.html">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>
+                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px" height="190px">
+                        </div>
+                    </a>
+                </div>
+                <div class="blackbordertxt">
+                    <h2><strong>Bulbassaur</strong></h2>
+                    <h2>#001</h2>
+                    <div class="cabtipo">
+                        <div class="tipos">
+                            <img src="plantaft.png" alt="planta" width="80px" height="40px">
+                        </div>
+                        <div class="tipos">
+                            <img src="venenoft.png" alt="venenos" width="80px" height="40px">
+                        </div>
                     </div>
                 </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
             </div>
+
             <div class="fundoazul">
-                <div class="blackborder">
+                <div class="blackborderimg">
                     <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>
+                        <a href="ivysaur.html">
+                            <img src="ivysaur002.png" alt="ivysaur002" width="200px" height="190px">
+                        </div>
+                    </a>
+                </div>
+                <div class="blackbordertxt">
+                    <h2><strong>Ivysaur</strong></h2>
+                    <h2>#002</h2>
+                    <div class="cabtipo">
+                        <div class="tipos">
+                            <img src="plantaft.png" alt="planta" width="80px" height="40px">
+                        </div>
+                        <div class="tipos">
+                            <img src="venenoft.png" alt="veneno" width="80px" height="40px">
+                        </div>
                     </div>
                 </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
             </div>
+
             <div class="fundoazul">
-                <div class="blackborder">
+                <div class="blackborderimg">
                     <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>
+                        <a href="venossaur.html">
+                            <img src="venossaur003.webp" alt="venossaur003" width="200px" height="190px">
+                        </div>
+                    </a>
+                </div>
+                <div class="blackbordertxt">
+                    <h2><strong>Venossaur</strong></h2>
+                    <h2>#003</h2>
+                    <div class="cabtipo">
+                        <div class="tipos">
+                            <img src="plantaft.png" alt="planta" width="80px" height="40px">
+                        </div>
+                        <div class="tipos">
+                            <img src="venenoft.png" alt="veneno" width="80px" height="40px">
+                        </div>
                     </div>
                 </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
+            </div>    
+
             <div class="fundoazul">
-                <div class="blackborder">
+                <div class="blackborderimg">
                     <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>                        
+                        <a href="charmander.html">
+                            <img src="charmander.png" alt="charmander004" width="200px" height="190px">
+                        </div>
+                    </a>
+                </div>
+                <div class="blackbordertxt">
+                    <h2><strong>Charmander</strong></h2>
+                    <h2>#004</h2>
+                    <div class="cabtipo">
+                        <div class="tipo">
+                            <img src="fogoft.png" alt="fogo" width="80px" height="40px">
+                        </div>
                     </div>
                 </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
-        </div>
-        <div class="cabecao">
-            <div class="fundoazul">
-                <div class="blackborder">
-                    <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>                        
-                    </div>
-                </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
-            <div class="fundoazul">
-                <div class="blackborder">
-                    <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>                        
-                    </div>
-                </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
-            <div class="fundoazul">
-                <div class="blackborder">
-                    <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>                        
-                    </div>
-                </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
-            <div class="fundoazul">
-                <div class="blackborder">
-                    <div class="foto">
-                        <a href="">
-                            <img src="bulbasaur001.jpg" alt="bulbasaur001" width="200px">
-                        </a>                        
-                    </div>
-                </div>
-                <div class="blacktext">
-                    <h2>bulbasaur</h2>
-                    <h2>#001</h2>
-                    <h3>Planta e venenoso</h3>
-                </div>
-            </div>
+            </div>    
         </div>
     </article>
     <footer>
         <div class="foter">
-            <p>a</p>
+            <h2>ENTRE EM CONTATO</h2>
+            <ol>
+                <strong>
+                    <h3>Instagram</h3>
+                    <li>
+                        <a href=""><p>@nivaldofilho78</p><br></a>
+                    </li>
+                    <h3>Git hub</h3>
+                    <li>
+                        <a href=""><p>@nivaldofilho13</p><br></a>
+                    </li>
+                    <h3>Email</h3>
+                    <li>
+                        <a href=""><p>nvf.ipu15@gmail</p><br></a>
+                    </li>
+                    <h3>Likedin</h3>
+                    <li>
+                        <a href=""><p>Nivaldo Filho</p><br></a>
+                    </li>
+                </strong>
+            </ol>
+            <small>Todos os direitos reservados &copy Nivaldo filho - 2026</small>
         </div>
     </footer>
 </body>
