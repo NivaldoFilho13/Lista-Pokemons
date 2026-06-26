@@ -9,6 +9,11 @@
         margin: 0;
         }
 
+        h1{
+        margin: 2%;
+        padding: 0;
+        }
+
         h3{
         margin: 0;
         }
@@ -44,14 +49,54 @@
         padding-top: 20px;
         margin-left: 10%;
         margin-right: 10%;
-        padding-bottom: 500px;
+        padding-bottom: 40px;
         }
 
         div.headart{
         background-color: gray;
-        margin: 10%;
+        margin-bottom: 5%;
         text-align: center;
         align-items: center;
+        width: 50%;
+        margin-right: 24%;
+        margin-left: 24%;
+        }
+
+        div.alterperf{
+        align-items: center;
+        text-align: center;
+        }
+
+        div.editsenha{
+        background-color: black;
+        width: 15%;
+        margin-left: 42%;
+        margin-right: 42%;
+        }
+
+        div.editsenha a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        }
+
+        div.editsenha h4{
+        margin: 0;
+        }
+
+        div.select {
+        display: flex;   
+        flex-direction: row;   
+        font-family: sans-serif;
+        font-size: 150%;           
+        }
+
+        div.walcollun{
+        margin-right: 11%;
+        margin-left: 11%;
+        }
+
+        div.submit{
+        margin: 10px;
         }
 
         footer {
@@ -98,17 +143,16 @@
                 <H1>EDITE CONFORME SUA PREFERENCIA</H1>
             </div>
             <div class="alterperf">
-                <form action="">
+                <form action="salvar.php" method="post">
                     <h1>Nome</h1>
-                    <input type="text" placeholder="Digite seu nome" value="Red" minlength="3" maxlength="12"><hr>
+                    <input type="text" placeholder="Digite seu nome" value="Red" minlength="3" maxlength="12" size="30%" required name="nome"><hr>
                     <h1>Email</h1>
-                    <input type="email" placeholder="redofctreinadormaisfoda@gmail.com"><hr>
-                    <a href="editsenha">mudar sua senha</a>
-                </form>
-            </div>
-            <div class="team">
-
-            </div>
+                    <input type="email" value="redofctreinadormaisfoda@gmail.com" placeholder="Digite seu email" size="50%" required name="email"><hr>
+                </div>
+                <div class="submit">
+                    <button type="submit">ENVIAR
+                </div>
+            </form>
         </div>
     </article>
     <footer>
